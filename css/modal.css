@@ -82,7 +82,7 @@
 }
 
 .modal-form-field {
-  margin-bottom: 16px;
+  margin-bottom: 8px;
 }
 .modal-form-label {
   display: block;
@@ -203,7 +203,7 @@
 }
 
 .modal-form-link {
-  line-height: 1.33333;
+  line-height: 1.16667;
   text-decoration: underline;
   text-decoration-skip-ink: none;
   color: #4d5ae5;
