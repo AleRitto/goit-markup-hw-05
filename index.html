@@ -487,10 +487,10 @@
         </div>
       </div>
     </footer>
-    <div class="backdrop" id="modal">
+    <div class="backdrop is-open" id="modal">
       <div class="modal">
         <button class="modal-btn" type="button">
-          <svg class="modal-btn-icon" width="24" height="24">
+          <svg class="modal-btn-icon" width="8" height="8">
             <use href="./images/icons.svg#close"></use>
           </svg>
         </button>
@@ -500,7 +500,7 @@
 
         <form class="modal-form" name="review_form">
           <div class="modal-form-field">
-            <label class="modal-form-label">Name</label>
+            <label for="user_name" class="modal-form-label">Name</label>
             <div class="modal-form-wrapper">
               <input
                 class="modal-form-input"
@@ -514,7 +514,7 @@
             </div>
           </div>
           <div class="modal-form-field">
-            <label class="modal-form-label">Phone</label>
+            <label for="user_phone" class="modal-form-label">Phone</label>
             <div class="modal-form-wrapper">
               <input
                 class="modal-form-input"
@@ -528,7 +528,7 @@
             </div>
           </div>
           <div class="modal-form-field">
-            <label class="modal-form-label">Email</label>
+            <label for="user_email" class="modal-form-label">Email</label>
             <div class="modal-form-wrapper">
               <input
                 class="modal-form-input"
@@ -542,7 +542,7 @@
             </div>
           </div>
           <div class="modal-form-field">
-            <label class="modal-form-label">Comment</label>
+            <label for="user_comment" class="modal-form-label">Comment</label>
             <textarea
               class="modal-form-comment"
               id="user_comment"
